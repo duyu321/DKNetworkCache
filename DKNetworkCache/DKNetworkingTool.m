@@ -111,7 +111,7 @@ typedef NS_ENUM(NSInteger, RequestType) {
     url = [url stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]; // ios9
     // 模型转字典
     parameters = [parameters mj_keyValues];
-#warning 这里请求参数结构根据后台要求修改
+//#warning 这里请求参数结构根据后台要求修改
     if (parameters) {
         parameters = @{@"data":[self dictionaryToJson:parameters]};
     }
@@ -269,8 +269,8 @@ static FMDatabase *_db;
     
     NSArray *result = [[DKFMDBTool shareTool] AllInformationDataBase:_db selectKeyTypes:@{@"url":@"text",@"savetime":@"date",@"data":@"blob"} fromTable:KDBTabelName whereCondition:@{@"url":url}];
     if (result.count>0) {
-        BOOL res = [[DKFMDBTool shareTool] DataBase:_db updateTable:KDBTabelName setKeyValues:@{@"savetime":[NSDate date],@"data":data} whereCondition:@{@"url":url}];
-        MCLog(@"URL:%@-----%@",url,res?@"数据更新成功":@"数据更新失败");
+        [[DKFMDBTool shareTool] DataBase:_db updateTable:KDBTabelName setKeyValues:@{@"savetime":[NSDate date],@"data":data} whereCondition:@{@"url":url}];
+//        MCLog(@"URL:%@-----%@",url,res?@"数据更新成功":@"数据更新失败");
     } else {
         [[DKFMDBTool shareTool] DataBase:_db insertKeyValues:@{@"url":url,@"savetime":[NSDate date],@"data":data} intoTable:KDBTabelName];
     }
