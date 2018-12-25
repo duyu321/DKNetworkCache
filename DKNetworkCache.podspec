@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/duyu321/DKNetworkCache.git", :tag => s.version }
   s.source_files  = "DKNetworkCache"
   s.requires_arc = true
-  s.frameworks = "Foundation","UIKit","libsqlite3"
+  #s.frameworks = "Foundation","UIKit","libsqlite3"
   s.dependency "AFNetworking", "~> 3.2.1"
   s.dependency "FMDB", "~> 2.7.5"
   s.dependency "MJExtension", "~> 3.0.15.1"
