@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+
+target 'TestNetworking' do
+    pod 'AFNetworking'
+    pod 'FMDB'
+    pod 'SVProgressHUD'
+    pod 'MJExtension'
+    pod 'MJRefresh'
+end
