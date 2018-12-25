@@ -7,9 +7,9 @@
 //
 
 #import "DKNetworkingTool.h"
-#import <AFNetworking.h>
-#import <FMDB.h>
-#import <MJExtension.h>
+#import <AFNetworking/AFNetworking.h>
+#import <FMDB/FMDB.h>
+#import <MJExtension/MJExtension.h>
 #import "DKFMDBTool.h"
 
 #ifdef DEBUG
