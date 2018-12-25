@@ -111,7 +111,7 @@ typedef NS_ENUM(NSInteger, RequestType) {
     url = [url stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]; // ios9
     // 模型转字典
     parameters = [parameters mj_keyValues];
-//#warning 这里请求参数结构根据后台要求修改
+
     if (parameters) {
         parameters = @{@"data":[self dictionaryToJson:parameters]};
     }
