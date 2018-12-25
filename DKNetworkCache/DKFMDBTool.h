@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <FMDB/FMDB.h>
+#import "FMDB.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
