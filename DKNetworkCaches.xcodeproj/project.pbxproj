@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183D124F21D1D3530091EFDE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183D124E21D1D3530091EFDE /* Default-568h@2x.png */; };
+		183D125521D1D37E0091EFDE /* DKNetworkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D125121D1D37D0091EFDE /* DKNetworkingTool.m */; };
+		183D125621D1D37E0091EFDE /* DKFMDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D125421D1D37D0091EFDE /* DKFMDBTool.m */; };
+		18543C3021D1D2B80077FD81 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18543C2221D1D2B70077FD81 /* ViewController.xib */; };
+		18543C3121D1D2B80077FD81 /* TLSWorkingLogOverview.m in Sources */ = {isa = PBXBuildFile; fileRef = 18543C2421D1D2B70077FD81 /* TLSWorkingLogOverview.m */; };
+		18543C3221D1D2B80077FD81 /* RequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18543C2621D1D2B70077FD81 /* RequestModel.m */; };
+		18543C3321D1D2B80077FD81 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18543C2721D1D2B70077FD81 /* MainViewController.m */; };
+		18543C3421D1D2B80077FD81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18543C2821D1D2B70077FD81 /* ViewController.m */; };
+		18543C3521D1D2B80077FD81 /* TLSWorkingLogOverviewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18543C2921D1D2B70077FD81 /* TLSWorkingLogOverviewData.m */; };
+		18543C3621D1D2B80077FD81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18543C2D21D1D2B80077FD81 /* AppDelegate.m */; };
+		18543C3721D1D2B80077FD81 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18543C2F21D1D2B80077FD81 /* MainViewController.xib */; };
+		185CB8F421D1D22D00FE5FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185CB8F321D1D22D00FE5FFC /* Assets.xcassets */; };
+		185CB8FA21D1D22D00FE5FFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CB8F921D1D22D00FE5FFC /* main.m */; };
+		185CB90421D1D22D00FE5FFC /* DKNetworkCachesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CB90321D1D22D00FE5FFC /* DKNetworkCachesTests.m */; };
+		185CB90F21D1D22E00FE5FFC /* DKNetworkCachesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CB90E21D1D22E00FE5FFC /* DKNetworkCachesUITests.m */; };
+		6AD930D3883C5F7D4144920C /* libPods-DKNetworkCaches.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA28381498252E3C9BA58EB /* libPods-DKNetworkCaches.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185CB90021D1D22D00FE5FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185CB8DF21D1D22D00FE5FFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185CB8E621D1D22D00FE5FFC;
+			remoteInfo = DKNetworkCaches;
+		};
+		185CB90B21D1D22E00FE5FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185CB8DF21D1D22D00FE5FFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185CB8E621D1D22D00FE5FFC;
+			remoteInfo = DKNetworkCaches;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183D124E21D1D3530091EFDE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		183D125121D1D37D0091EFDE /* DKNetworkingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKNetworkingTool.m; sourceTree = "<group>"; };
+		183D125221D1D37D0091EFDE /* DKFMDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKFMDBTool.h; sourceTree = "<group>"; };
+		183D125321D1D37D0091EFDE /* DKNetworkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNetworkingTool.h; sourceTree = "<group>"; };
+		183D125421D1D37D0091EFDE /* DKFMDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKFMDBTool.m; sourceTree = "<group>"; };
+		18543C2221D1D2B70077FD81 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		18543C2321D1D2B70077FD81 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		18543C2421D1D2B70077FD81 /* TLSWorkingLogOverview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSWorkingLogOverview.m; sourceTree = "<group>"; };
+		18543C2521D1D2B70077FD81 /* TLSWorkingLogOverviewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSWorkingLogOverviewData.h; sourceTree = "<group>"; };
+		18543C2621D1D2B70077FD81 /* RequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestModel.m; sourceTree = "<group>"; };
+		18543C2721D1D2B70077FD81 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		18543C2821D1D2B70077FD81 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18543C2921D1D2B70077FD81 /* TLSWorkingLogOverviewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSWorkingLogOverviewData.m; sourceTree = "<group>"; };
+		18543C2A21D1D2B70077FD81 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18543C2B21D1D2B80077FD81 /* RequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestModel.h; sourceTree = "<group>"; };
+		18543C2C21D1D2B80077FD81 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18543C2D21D1D2B80077FD81 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18543C2E21D1D2B80077FD81 /* TLSWorkingLogOverview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSWorkingLogOverview.h; sourceTree = "<group>"; };
+		18543C2F21D1D2B80077FD81 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		185CB8E721D1D22D00FE5FFC /* DKNetworkCaches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKNetworkCaches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185CB8F321D1D22D00FE5FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185CB8F821D1D22D00FE5FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185CB8F921D1D22D00FE5FFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185CB8FF21D1D22D00FE5FFC /* DKNetworkCachesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKNetworkCachesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185CB90321D1D22D00FE5FFC /* DKNetworkCachesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKNetworkCachesTests.m; sourceTree = "<group>"; };
+		185CB90521D1D22D00FE5FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185CB90A21D1D22E00FE5FFC /* DKNetworkCachesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKNetworkCachesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185CB90E21D1D22E00FE5FFC /* DKNetworkCachesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKNetworkCachesUITests.m; sourceTree = "<group>"; };
+		185CB91021D1D22E00FE5FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A4E961871333FDA5228A83 /* Pods-DKNetworkCaches.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKNetworkCaches.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKNetworkCaches/Pods-DKNetworkCaches.release.xcconfig"; sourceTree = "<group>"; };
+		9AA28381498252E3C9BA58EB /* libPods-DKNetworkCaches.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKNetworkCaches.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16A56C3EF4271599F922E27 /* Pods-DKNetworkCaches.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKNetworkCaches.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKNetworkCaches/Pods-DKNetworkCaches.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185CB8E421D1D22D00FE5FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD930D3883C5F7D4144920C /* libPods-DKNetworkCaches.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB8FC21D1D22D00FE5FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB90721D1D22E00FE5FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183D125021D1D37D0091EFDE /* DKNetworkCache */ = {
+			isa = PBXGroup;
+			children = (
+				183D125121D1D37D0091EFDE /* DKNetworkingTool.m */,
+				183D125221D1D37D0091EFDE /* DKFMDBTool.h */,
+				183D125321D1D37D0091EFDE /* DKNetworkingTool.h */,
+				183D125421D1D37D0091EFDE /* DKFMDBTool.m */,
+			);
+			path = DKNetworkCache;
+			sourceTree = SOURCE_ROOT;
+		};
+		185CB8DE21D1D22D00FE5FFC = {
+			isa = PBXGroup;
+			children = (
+				183D124E21D1D3530091EFDE /* Default-568h@2x.png */,
+				185CB8E921D1D22D00FE5FFC /* DKNetworkCaches */,
+				185CB90221D1D22D00FE5FFC /* DKNetworkCachesTests */,
+				185CB90D21D1D22E00FE5FFC /* DKNetworkCachesUITests */,
+				185CB8E821D1D22D00FE5FFC /* Products */,
+				4037E96A4D4FEC2CAB9B9A4F /* Pods */,
+				9D1A176E1FA88C75F6767D01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185CB8E821D1D22D00FE5FFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185CB8E721D1D22D00FE5FFC /* DKNetworkCaches.app */,
+				185CB8FF21D1D22D00FE5FFC /* DKNetworkCachesTests.xctest */,
+				185CB90A21D1D22E00FE5FFC /* DKNetworkCachesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185CB8E921D1D22D00FE5FFC /* DKNetworkCaches */ = {
+			isa = PBXGroup;
+			children = (
+				183D125021D1D37D0091EFDE /* DKNetworkCache */,
+				18543C2C21D1D2B80077FD81 /* AppDelegate.h */,
+				18543C2D21D1D2B80077FD81 /* AppDelegate.m */,
+				18543C2321D1D2B70077FD81 /* MainViewController.h */,
+				18543C2721D1D2B70077FD81 /* MainViewController.m */,
+				18543C2F21D1D2B80077FD81 /* MainViewController.xib */,
+				18543C2B21D1D2B80077FD81 /* RequestModel.h */,
+				18543C2621D1D2B70077FD81 /* RequestModel.m */,
+				18543C2E21D1D2B80077FD81 /* TLSWorkingLogOverview.h */,
+				18543C2421D1D2B70077FD81 /* TLSWorkingLogOverview.m */,
+				18543C2521D1D2B70077FD81 /* TLSWorkingLogOverviewData.h */,
+				18543C2921D1D2B70077FD81 /* TLSWorkingLogOverviewData.m */,
+				18543C2A21D1D2B70077FD81 /* ViewController.h */,
+				18543C2821D1D2B70077FD81 /* ViewController.m */,
+				18543C2221D1D2B70077FD81 /* ViewController.xib */,
+				185CB8F321D1D22D00FE5FFC /* Assets.xcassets */,
+				185CB8F821D1D22D00FE5FFC /* Info.plist */,
+				185CB8F921D1D22D00FE5FFC /* main.m */,
+			);
+			path = DKNetworkCaches;
+			sourceTree = "<group>";
+		};
+		185CB90221D1D22D00FE5FFC /* DKNetworkCachesTests */ = {
+			isa = PBXGroup;
+			children = (
+				185CB90321D1D22D00FE5FFC /* DKNetworkCachesTests.m */,
+				185CB90521D1D22D00FE5FFC /* Info.plist */,
+			);
+			path = DKNetworkCachesTests;
+			sourceTree = "<group>";
+		};
+		185CB90D21D1D22E00FE5FFC /* DKNetworkCachesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				185CB90E21D1D22E00FE5FFC /* DKNetworkCachesUITests.m */,
+				185CB91021D1D22E00FE5FFC /* Info.plist */,
+			);
+			path = DKNetworkCachesUITests;
+			sourceTree = "<group>";
+		};
+		4037E96A4D4FEC2CAB9B9A4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B16A56C3EF4271599F922E27 /* Pods-DKNetworkCaches.debug.xcconfig */,
+				18A4E961871333FDA5228A83 /* Pods-DKNetworkCaches.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D1A176E1FA88C75F6767D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA28381498252E3C9BA58EB /* libPods-DKNetworkCaches.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185CB8E621D1D22D00FE5FFC /* DKNetworkCaches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185CB91321D1D22E00FE5FFC /* Build configuration list for PBXNativeTarget "DKNetworkCaches" */;
+			buildPhases = (
+				07C6792B46C1141FB2A333F5 /* [CP] Check Pods Manifest.lock */,
+				185CB8E321D1D22D00FE5FFC /* Sources */,
+				185CB8E421D1D22D00FE5FFC /* Frameworks */,
+				185CB8E521D1D22D00FE5FFC /* Resources */,
+				465262E1200B52BAA38B462B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKNetworkCaches;
+			productName = DKNetworkCaches;
+			productReference = 185CB8E721D1D22D00FE5FFC /* DKNetworkCaches.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185CB8FE21D1D22D00FE5FFC /* DKNetworkCachesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185CB91621D1D22E00FE5FFC /* Build configuration list for PBXNativeTarget "DKNetworkCachesTests" */;
+			buildPhases = (
+				185CB8FB21D1D22D00FE5FFC /* Sources */,
+				185CB8FC21D1D22D00FE5FFC /* Frameworks */,
+				185CB8FD21D1D22D00FE5FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185CB90121D1D22D00FE5FFC /* PBXTargetDependency */,
+			);
+			name = DKNetworkCachesTests;
+			productName = DKNetworkCachesTests;
+			productReference = 185CB8FF21D1D22D00FE5FFC /* DKNetworkCachesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185CB90921D1D22E00FE5FFC /* DKNetworkCachesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185CB91921D1D22E00FE5FFC /* Build configuration list for PBXNativeTarget "DKNetworkCachesUITests" */;
+			buildPhases = (
+				185CB90621D1D22E00FE5FFC /* Sources */,
+				185CB90721D1D22E00FE5FFC /* Frameworks */,
+				185CB90821D1D22E00FE5FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185CB90C21D1D22E00FE5FFC /* PBXTargetDependency */,
+			);
+			name = DKNetworkCachesUITests;
+			productName = DKNetworkCachesUITests;
+			productReference = 185CB90A21D1D22E00FE5FFC /* DKNetworkCachesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185CB8DF21D1D22D00FE5FFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "杜宇";
+				TargetAttributes = {
+					185CB8E621D1D22D00FE5FFC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					185CB8FE21D1D22D00FE5FFC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 185CB8E621D1D22D00FE5FFC;
+					};
+					185CB90921D1D22E00FE5FFC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 185CB8E621D1D22D00FE5FFC;
+					};
+				};
+			};
+			buildConfigurationList = 185CB8E221D1D22D00FE5FFC /* Build configuration list for PBXProject "DKNetworkCaches" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185CB8DE21D1D22D00FE5FFC;
+			productRefGroup = 185CB8E821D1D22D00FE5FFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185CB8E621D1D22D00FE5FFC /* DKNetworkCaches */,
+				185CB8FE21D1D22D00FE5FFC /* DKNetworkCachesTests */,
+				185CB90921D1D22E00FE5FFC /* DKNetworkCachesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185CB8E521D1D22D00FE5FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18543C3021D1D2B80077FD81 /* ViewController.xib in Resources */,
+				183D124F21D1D3530091EFDE /* Default-568h@2x.png in Resources */,
+				18543C3721D1D2B80077FD81 /* MainViewController.xib in Resources */,
+				185CB8F421D1D22D00FE5FFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB8FD21D1D22D00FE5FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB90821D1D22E00FE5FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C6792B46C1141FB2A333F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKNetworkCaches-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		465262E1200B52BAA38B462B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DKNetworkCaches/Pods-DKNetworkCaches-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKNetworkCaches/Pods-DKNetworkCaches-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185CB8E321D1D22D00FE5FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183D125621D1D37E0091EFDE /* DKFMDBTool.m in Sources */,
+				185CB8FA21D1D22D00FE5FFC /* main.m in Sources */,
+				18543C3221D1D2B80077FD81 /* RequestModel.m in Sources */,
+				183D125521D1D37E0091EFDE /* DKNetworkingTool.m in Sources */,
+				18543C3121D1D2B80077FD81 /* TLSWorkingLogOverview.m in Sources */,
+				18543C3321D1D2B80077FD81 /* MainViewController.m in Sources */,
+				18543C3421D1D2B80077FD81 /* ViewController.m in Sources */,
+				18543C3521D1D2B80077FD81 /* TLSWorkingLogOverviewData.m in Sources */,
+				18543C3621D1D2B80077FD81 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB8FB21D1D22D00FE5FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185CB90421D1D22D00FE5FFC /* DKNetworkCachesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB90621D1D22E00FE5FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185CB90F21D1D22E00FE5FFC /* DKNetworkCachesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185CB90121D1D22D00FE5FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185CB8E621D1D22D00FE5FFC /* DKNetworkCaches */;
+			targetProxy = 185CB90021D1D22D00FE5FFC /* PBXContainerItemProxy */;
+		};
+		185CB90C21D1D22E00FE5FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185CB8E621D1D22D00FE5FFC /* DKNetworkCaches */;
+			targetProxy = 185CB90B21D1D22E00FE5FFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		185CB91121D1D22E00FE5FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185CB91221D1D22E00FE5FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185CB91421D1D22E00FE5FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16A56C3EF4271599F922E27 /* Pods-DKNetworkCaches.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46229L5J68;
+				INFOPLIST_FILE = DKNetworkCaches/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitvalue.DKNetworkCaches;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		185CB91521D1D22E00FE5FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A4E961871333FDA5228A83 /* Pods-DKNetworkCaches.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46229L5J68;
+				INFOPLIST_FILE = DKNetworkCaches/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitvalue.DKNetworkCaches;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		185CB91721D1D22E00FE5FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHSYCT8E85;
+				INFOPLIST_FILE = DKNetworkCachesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitvalue.DKNetworkCachesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKNetworkCaches.app/DKNetworkCaches";
+			};
+			name = Debug;
+		};
+		185CB91821D1D22E00FE5FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHSYCT8E85;
+				INFOPLIST_FILE = DKNetworkCachesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitvalue.DKNetworkCachesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKNetworkCaches.app/DKNetworkCaches";
+			};
+			name = Release;
+		};
+		185CB91A21D1D22E00FE5FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHSYCT8E85;
+				INFOPLIST_FILE = DKNetworkCachesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitvalue.DKNetworkCachesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKNetworkCaches;
+			};
+			name = Debug;
+		};
+		185CB91B21D1D22E00FE5FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHSYCT8E85;
+				INFOPLIST_FILE = DKNetworkCachesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitvalue.DKNetworkCachesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKNetworkCaches;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185CB8E221D1D22D00FE5FFC /* Build configuration list for PBXProject "DKNetworkCaches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185CB91121D1D22E00FE5FFC /* Debug */,
+				185CB91221D1D22E00FE5FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185CB91321D1D22E00FE5FFC /* Build configuration list for PBXNativeTarget "DKNetworkCaches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185CB91421D1D22E00FE5FFC /* Debug */,
+				185CB91521D1D22E00FE5FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185CB91621D1D22E00FE5FFC /* Build configuration list for PBXNativeTarget "DKNetworkCachesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185CB91721D1D22E00FE5FFC /* Debug */,
+				185CB91821D1D22E00FE5FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185CB91921D1D22E00FE5FFC /* Build configuration list for PBXNativeTarget "DKNetworkCachesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185CB91A21D1D22E00FE5FFC /* Debug */,
+				185CB91B21D1D22E00FE5FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185CB8DF21D1D22D00FE5FFC /* Project object */;
+}
