@@ -7,7 +7,6 @@
 //
 
 #import "DKNetworkingTool.h"
-#import "AFNetworking.h"
 #import "FMDB.h"
 #import "MJExtension.h"
 #import "DKFMDBTool.h"
@@ -134,7 +133,7 @@ typedef NS_ENUM(NSInteger, RequestType) {
         failure(@"请检查网络");
         return;
     }
-    AFHTTPSessionManager *  manager = [AFHTTPSessionManager manager];
+    AFHTTPSessionManager *  manager = [AFManager shareManager];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/html",nil];
     [manager.requestSerializer setTimeoutInterval:10];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
@@ -371,6 +370,19 @@ static FMDatabase *_db;
     NSError *parseError = nil;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&parseError];
     return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+}
+
+@end
+
+@implementation AFManager
+
++ (AFHTTPSessionManager *)shareManager {
+    static AFHTTPSessionManager *manager=nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        manager = [AFHTTPSessionManager manager];
+    });
+    return manager;
 }
 
 @end

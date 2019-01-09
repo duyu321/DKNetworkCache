@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AFNetworking.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -82,6 +83,13 @@ typedef void(^loadProgress)(NSProgress *progress);
  *  @return 文件大小
  */
 + (unsigned long long)fileSizeForPath:(NSString *)path;
+
+@end
+
+// 解决NSURLSession循环引用的问题
+@interface AFManager : AFHTTPSessionManager
+
++ (AFHTTPSessionManager *)shareManager;
 
 @end
 
